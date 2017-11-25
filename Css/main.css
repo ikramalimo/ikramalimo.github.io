@@ -2,7 +2,7 @@ body {
 	
 	color: white;
 	font-family: arial;
-	font-size: 60px;
+	font-size: 30px;
 
 
 
@@ -35,16 +35,4 @@ body {
 
 
 
-#typed-strings{
-  
-  margin: 0px auto;
-
-}
-
-@media screen and (max-width:959px) {
-  #typed-strings{
-    width:100%;
-
-  }
-}
 
