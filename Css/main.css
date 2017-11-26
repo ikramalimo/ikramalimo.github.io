@@ -1,13 +1,8 @@
 body {
 	
-	color: white;
+	color: green;
 	font-family: arial;
 	font-size: 30px;
-
-
-
-
-
 
 
 }
@@ -17,8 +12,8 @@ body {
 body {
   
 
-  display: flex;
-  justify-content: left;
+  
+  
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -32,6 +27,31 @@ body {
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
+
+
+
+#typed-strings{
+  width: 960px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 959px){
+  #typed-strings{
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  #typed-strings{
+    width: 100%;
+
+  }
+
+}
+
+
 
 
 
